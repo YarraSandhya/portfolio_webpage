@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yarra Durga Venkata Sandhya | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="logo">Yarra Durga Venkata Sandhya</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="home">
+    <h1>Welcome to My Portfolio</h1>
+    <p> My name is Yarra Durga Venkata Sandhya, and I’m currently pursuing my B.Tech in Computer Science and Engineering at NRI Institute of Technology. I am passionate about technology, innovation, and solving real-world problems through creative solutions. My academic journey has helped me develop strong skills in web development, artificial intelligence, and data science, and I enjoy exploring how these fields can improve everyday life. One of my favorite projects is a Predicting Solar Power Output using LinearRegression and Stress Detection . I am also learning about machine learning algorithms and their applications in various domains. Apart from technical skills, I actively participate in technical events, workshops that challenge me to think critically and work collaboratively. I believe in continuous learning and keeping up with the latest trends in technology. My goal is to become a skilled software developer who creates impactful, user-friendly, and innovative digital solutions. I value teamwork, curiosity, and precision in everything I do. Beyond academics, I enjoy designing websites, experimenting with new tools. With every project, I strive to learn something new and push my limits as a technologist. Thank you for visiting my portfolio and taking the time to know more about me!</p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>My Projects</h2>
+    <div class="project-container">
+      <div class="project-card">
+        <img src="https://projectgurukul.org/wp-content/uploads/2025/07/solar-energy-output-prediction-using-linear-regression.webp" alt="Predicting Solar Power Output using LinearRegression">
+        <h3>Predicting Solar Power Output using LinearRegression</h3>
+        <p>This project uses linear regression to predict solar power output based on environmental factors like sunlight, temperature, and cloud cover. It includes data preprocessing, model implementation, and performance evaluation, offering insights for efficient energy planning.</p>
+      </div>
+      <div class="project-card">
+        <img src="https://cdn-images-1.medium.com/max/1600/1*qpZpG8Y87vfI_kCGVTBdoA.jpeg" alt="Data Structure Visualizations">
+        <h3>Data Structure Visualizations</h3>
+        <p>Data Structure Visualization refers to the graphical representation of data structures such as arrays, stacks, queues, linked lists, trees, and graphs. It helps learners and developers understand how data is organized, stored, and manipulated in memory. Through visualization, abstract programming concepts become easier to understand and analyze..</p>
+      </div>
+      <div class="project-card">
+        <img src="http://sensomatt.com/wp-content/uploads/2022/06/stress.png" alt="Stress Detection">
+        <h3>Stress Detection</h3>
+        <p>Stress Detection refers to the process of identifying a person’s mental or emotional stress levels using various physiological, behavioral, or psychological indicators.
+In today’s fast-paced world, stress has become a common issue affecting mental health, productivity, and overall well-being.
+ .</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your Name" required />
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your Email" required />
+      </div>
+      <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" placeholder="Enter the Message" required></textarea>
+      </div>
+      <button type="submit">Send Message</button>
+    </form>
+    <p id="formMessage"></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Yarra Durga Venkata Sandhya. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
